@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
+    {
+      path: '/aboutme',
+      name: 'aboutme',
+      component: () => import('../views/AboutMeView.vue'),
+    },
   ],
   scrollBehavior() {
     return new Promise(resolve => {
