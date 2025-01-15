@@ -20,9 +20,23 @@ import '@lottiefiles/lottie-player'
             via these services below.
           </p>
           <div class="w-full flex justify-center">
-            <Button class="mr-2" icon="pi pi-twitter" variant="outlined" />
-            <Button class="mr-2" icon="pi pi-github" variant="outlined" />
-            <Button icon="pi pi-linkedin" variant="outlined" />
+            <Button
+              class="mr-2"
+              icon="pi pi-twitter"
+              variant="outlined"
+              href="https://twitter.com/dsjinj"
+            />
+            <Button
+              class="mr-2"
+              icon="pi pi-github"
+              variant="outlined"
+              href="https://github.com/dsjin"
+            />
+            <Button
+              icon="pi pi-linkedin"
+              variant="outlined"
+              href="https://www.linkedin.com/in/thatchakonj/"
+            />
           </div>
         </div>
         <div
