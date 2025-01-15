@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { Button } from 'primevue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 </script>
 <template>
   <div
@@ -12,7 +15,12 @@ import { Button } from 'primevue'
     <div class="flex flex-col text-center justify-center items-center">
       <h1 class="text-2xl mb-4">Thatchakon Jom-ud</h1>
       <h2 class="text-xl mb-4">Dispatch Web Developer @ Human Resocia</h2>
-      <Button size="small" class="w-fit" variant="outlined">
+      <Button
+        size="small"
+        class="w-fit"
+        variant="outlined"
+        @click="() => router.push('/aboutme')"
+      >
         Explore more
       </Button>
     </div>
