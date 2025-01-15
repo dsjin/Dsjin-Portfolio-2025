@@ -21,21 +21,27 @@ import '@lottiefiles/lottie-player'
           </p>
           <div class="w-full flex justify-center">
             <Button
+              as="a"
               class="mr-2"
               icon="pi pi-twitter"
               variant="outlined"
               href="https://twitter.com/dsjinj"
+              target="_blank"
             />
             <Button
+              as="a"
               class="mr-2"
               icon="pi pi-github"
               variant="outlined"
               href="https://github.com/dsjin"
+              target="_blank"
             />
             <Button
+              as="a"
               icon="pi pi-linkedin"
               variant="outlined"
               href="https://www.linkedin.com/in/thatchakonj/"
+              target="_blank"
             />
           </div>
         </div>
