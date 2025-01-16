@@ -2,7 +2,7 @@
 import { Menubar } from 'primevue'
 import type { MenuItem } from 'primevue/menuitem'
 import { ref, type Ref } from 'vue'
-import navItems from '../assets/data/navItems'
+import { navItems } from '../assets/data/navItems'
 
 const items: Ref<MenuItem[]> = ref(navItems)
 </script>

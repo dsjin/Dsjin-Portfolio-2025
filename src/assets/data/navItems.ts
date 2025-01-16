@@ -11,6 +11,13 @@ export const navItems: MenuItem[] = [
     route: '/aboutme',
     icon: 'pi pi-user',
   },
+  {
+    label: 'Work',
+    route: '/work',
+    icon: 'pi pi-briefcase',
+  },
 ]
 
-export default navItems
+export default {
+  navItems,
+}
