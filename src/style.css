@@ -13,6 +13,12 @@ body {
   background-color: #112d32;
 }
 
+:root {
+  --p-dataview-content-background: #112d32;
+  --p-paginator-background: #112d32;
+  --p-dataview-paginator-bottom-border-color: #112d32;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

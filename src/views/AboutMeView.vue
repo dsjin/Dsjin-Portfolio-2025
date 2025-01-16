@@ -4,7 +4,7 @@ import '@lottiefiles/lottie-player'
 </script>
 <template>
   <div id="AboutMe" class="p-3 text-white">
-    <div class="flex flex-col justify-starth-full items-center h-full px-2">
+    <div class="flex flex-col justify-start items-center h-full px-2">
       <h1 class="text-3xl mb-5 lg:mb-0">About Me</h1>
       <div
         class="flex flex-col lg:flex-row justify-between items-center h-full w-full"

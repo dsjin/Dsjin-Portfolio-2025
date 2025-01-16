@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'aboutme',
       component: () => import('../views/AboutMeView.vue'),
     },
+    {
+      path: '/work',
+      name: 'work',
+      component: () => import('../views/WorkView.vue'),
+    },
   ],
   scrollBehavior() {
     return new Promise(resolve => {
