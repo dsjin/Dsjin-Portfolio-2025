@@ -4,6 +4,17 @@ import { v4 as uuid } from 'uuid'
 export const workItems: WorkItem[] = [
   {
     id: uuid(),
+    title: 'Simple Chatroom',
+    description:
+      'A web application that allow you to send / receive a meesage inside the chat room channel. All messages are transmited using WebSocket (Supabase)',
+    inProcess: true,
+    techStacks: ['React', 'Supabase'],
+    link: 'https://chatroom.dsjin.co',
+    thumbnailPath: '',
+    year: '2025',
+  },
+  {
+    id: uuid(),
     title: 'Todo List',
     description:
       'A web application that allow you to manage a group of tasks, manage a task. All informtion is stored in the cloud ( Supabase server )',
