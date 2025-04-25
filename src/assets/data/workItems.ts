@@ -6,7 +6,7 @@ export const workItems: WorkItem[] = [
     id: uuid(),
     title: 'Simple Chatroom',
     description:
-      'A web application that allow you to send / receive a meesage inside the chat room channel. All messages are transmited using WebSocket (Supabase)',
+      'A web application that allows you to send / receive a message inside the chat room channel. All messages are transmited using WebSocket (Supabase)',
     inProcess: true,
     techStacks: ['React', 'Supabase'],
     link: 'https://chatroom.dsjin.co',
@@ -17,7 +17,7 @@ export const workItems: WorkItem[] = [
     id: uuid(),
     title: 'Todo List',
     description:
-      'A web application that allow you to manage a group of tasks, manage a task. All informtion is stored in the cloud ( Supabase server )',
+      'A web application that allow syou to manage a group of tasks, manage a task. All informtion is stored in the cloud ( Supabase server )',
     inProcess: false,
     techStacks: ['Vue.JS', 'Supabase'],
     link: 'https://todo.dsjin.co',
