@@ -16,6 +16,11 @@ export const navItems: MenuItem[] = [
     route: '/work',
     icon: 'pi pi-briefcase',
   },
+  {
+    label: 'Blog',
+    url: 'https://blog.dsjin.co',
+    icon: 'pi pi-book'
+  }
 ]
 
 export default {
