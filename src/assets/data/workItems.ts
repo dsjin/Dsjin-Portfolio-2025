@@ -4,10 +4,32 @@ import { v4 as uuid } from 'uuid'
 export const workItems: WorkItem[] = [
   {
     id: uuid(),
+    title: 'Ebook Factory',
+    description:
+      'A web application that allows you to create, edit, and export Ebooks, as well as upload and edit EPUB metadata.',
+    inProcess: true,
+    techStacks: ['React (Next.JS)'],
+    link: '',
+    thumbnailPath: '',
+    year: '2026',
+  },
+  {
+    id: uuid(),
+    title: 'DSJIN Blog ( Personal Blog )',
+    description:
+      'A personal web blog for lifestyle, coding (Migrated to Astro). Use TinaCMS for editor.',
+    inProcess: false,
+    techStacks: ['Astro', 'Vue.js', 'TinaCMS'],
+    link: 'https://blog.dsjin.co',
+    thumbnailPath: '',
+    year: '2025',
+  },
+  {
+    id: uuid(),
     title: 'Simple Chatroom',
     description:
       'A web application that allows you to send / receive a message inside the chat room channel. All messages are transmited using WebSocket (Supabase)',
-    inProcess: true,
+    inProcess: false,
     techStacks: ['React', 'Supabase'],
     link: 'https://chatroom.dsjin.co',
     thumbnailPath: '',
