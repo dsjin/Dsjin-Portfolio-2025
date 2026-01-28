@@ -55,6 +55,7 @@ const items: Ref<WorkItem[]> = ref(workItems)
                     />
                   </div>
                   <Button
+                    v-if="item.link"
                     as="a"
                     label="Visit"
                     :href="item.link"
