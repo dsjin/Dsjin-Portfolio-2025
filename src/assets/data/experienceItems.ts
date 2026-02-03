@@ -9,7 +9,7 @@ export const experiences: Experience[] = [
     template: `
       <p>
         Working as a dispatch full stack developer. Assigned in multiple client projects
-        <ul class="list-disc list-inside pl-6">
+        <ul class="experience-list">
           <li class="mt-2 mb-2">
             Shimizu Construction - Full Stack Developer | Nov 2025 - present
           </li>
