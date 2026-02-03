@@ -61,4 +61,7 @@ import '@lottiefiles/lottie-player'
 #AboutMe {
   @include common.longpage-wrapper;
 }
+.experience-list {
+  @apply list-disc list-inside pl-6
+}
 </style>
