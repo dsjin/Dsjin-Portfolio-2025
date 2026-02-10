@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
             Chara Web - Full Stack Developer | April 2020 - Jul 2022
           </li>
           <li class="mt-2 mb-2">
-            Hivelocity - Low Coding Developer (Oracle APEX) | April 2020 - Jul 2022
+            Hivelocity - Low Coding Developer (Oracle APEX) | Oct 2019 - Feb 2020
           </li>
         </ul>
       </p>
