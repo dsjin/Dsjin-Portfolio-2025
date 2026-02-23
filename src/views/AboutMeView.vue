@@ -18,6 +18,7 @@ import '@lottiefiles/lottie-player'
             via these services below.
           </p>
           <div class="w-full flex justify-center">
+            <Button as="a" class="mr-2" icon="pi pi-envelope" variant="outlined" href="mailto:me@dsjin.co" />
             <Button as="a" class="mr-2" icon="pi pi-twitter" variant="outlined" href="https://twitter.com/dsjinj"
               target="_blank" />
             <Button as="a" class="mr-2" icon="pi pi-github" variant="outlined" href="https://github.com/dsjin"
